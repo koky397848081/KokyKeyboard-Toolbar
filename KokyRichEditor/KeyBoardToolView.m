@@ -16,8 +16,7 @@
 -(void)showKeyBoardToolView{
     
     self.frame = CGRectMake(0, screen_Height, screen_Width, 50);
-    self.backgroundColor = [UIColor whiteColor];
-    self.alpha = 0.5;
+    self.backgroundColor = [UIColor groupTableViewBackgroundColor];
     [self interfaceUI];
 }
 
@@ -30,14 +29,14 @@
     [self addSubview:losebtn];
     
     UIButton *imageBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [imageBtn setTitle:@"图片" forState:UIControlStateNormal];
+    [imageBtn setTitle:@"加粗" forState:UIControlStateNormal];
     imageBtn.frame = CGRectMake(screen_Width-100, 0, 50, 50);
     [imageBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [imageBtn addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
     [self addSubview:imageBtn];
     
     UIButton *cameraBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [cameraBtn setTitle:@"相机" forState:UIControlStateNormal];
+    [cameraBtn setTitle:@"链接" forState:UIControlStateNormal];
     cameraBtn.frame = CGRectMake(screen_Width-50, 0, 50, 50);
     [cameraBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [cameraBtn addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
