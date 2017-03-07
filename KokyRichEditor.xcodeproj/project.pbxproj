@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		692AFF501E6E79800001C09C /* assert.js in Resources */ = {isa = PBXBuildFile; fileRef = 692AFF491E6E79800001C09C /* assert.js */; };
+		692AFF511E6E79800001C09C /* normalize.css in Resources */ = {isa = PBXBuildFile; fileRef = 692AFF4A1E6E79800001C09C /* normalize.css */; };
+		692AFF521E6E79800001C09C /* rich_editor.html in Resources */ = {isa = PBXBuildFile; fileRef = 692AFF4B1E6E79800001C09C /* rich_editor.html */; };
+		692AFF531E6E79800001C09C /* rich_editor.js in Resources */ = {isa = PBXBuildFile; fileRef = 692AFF4C1E6E79800001C09C /* rich_editor.js */; };
+		692AFF541E6E79800001C09C /* rich_editor_tests.html in Resources */ = {isa = PBXBuildFile; fileRef = 692AFF4D1E6E79800001C09C /* rich_editor_tests.html */; };
+		692AFF551E6E79800001C09C /* rich_editor_tests.js in Resources */ = {isa = PBXBuildFile; fileRef = 692AFF4E1E6E79800001C09C /* rich_editor_tests.js */; };
+		692AFF561E6E79800001C09C /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 692AFF4F1E6E79800001C09C /* style.css */; };
+		696EBA341E6CF67900EB6E99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 696EBA331E6CF67900EB6E99 /* main.m */; };
+		696EBA371E6CF67A00EB6E99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 696EBA361E6CF67A00EB6E99 /* AppDelegate.m */; };
+		696EBA3A1E6CF67A00EB6E99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 696EBA391E6CF67A00EB6E99 /* ViewController.m */; };
+		696EBA3D1E6CF67A00EB6E99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 696EBA3B1E6CF67A00EB6E99 /* Main.storyboard */; };
+		696EBA3F1E6CF67A00EB6E99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696EBA3E1E6CF67A00EB6E99 /* Assets.xcassets */; };
+		696EBA421E6CF67A00EB6E99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 696EBA401E6CF67A00EB6E99 /* LaunchScreen.storyboard */; };
+		696EBA6F1E6D04D600EB6E99 /* UIViewController+KeyboardCorver.m in Sources */ = {isa = PBXBuildFile; fileRef = 696EBA6E1E6D04D600EB6E99 /* UIViewController+KeyboardCorver.m */; };
+		696EBA721E6D057000EB6E99 /* KeyBoardToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 696EBA711E6D057000EB6E99 /* KeyBoardToolView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		692AFF491E6E79800001C09C /* assert.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = assert.js; sourceTree = "<group>"; };
+		692AFF4A1E6E79800001C09C /* normalize.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = normalize.css; sourceTree = "<group>"; };
+		692AFF4B1E6E79800001C09C /* rich_editor.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = rich_editor.html; sourceTree = "<group>"; };
+		692AFF4C1E6E79800001C09C /* rich_editor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = rich_editor.js; sourceTree = "<group>"; };
+		692AFF4D1E6E79800001C09C /* rich_editor_tests.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = rich_editor_tests.html; sourceTree = "<group>"; };
+		692AFF4E1E6E79800001C09C /* rich_editor_tests.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = rich_editor_tests.js; sourceTree = "<group>"; };
+		692AFF4F1E6E79800001C09C /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		696EBA2F1E6CF67900EB6E99 /* KokyRichEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KokyRichEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		696EBA331E6CF67900EB6E99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		696EBA351E6CF67900EB6E99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		696EBA361E6CF67A00EB6E99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		696EBA381E6CF67A00EB6E99 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		696EBA391E6CF67A00EB6E99 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		696EBA3C1E6CF67A00EB6E99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		696EBA3E1E6CF67A00EB6E99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		696EBA411E6CF67A00EB6E99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		696EBA431E6CF67A00EB6E99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		696EBA6D1E6D04D600EB6E99 /* UIViewController+KeyboardCorver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KeyboardCorver.h"; sourceTree = "<group>"; };
+		696EBA6E1E6D04D600EB6E99 /* UIViewController+KeyboardCorver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KeyboardCorver.m"; sourceTree = "<group>"; };
+		696EBA701E6D057000EB6E99 /* KeyBoardToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyBoardToolView.h; sourceTree = "<group>"; };
+		696EBA711E6D057000EB6E99 /* KeyBoardToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyBoardToolView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		696EBA2C1E6CF67900EB6E99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		692AFF481E6E79800001C09C /* editor */ = {
+			isa = PBXGroup;
+			children = (
+				692AFF491E6E79800001C09C /* assert.js */,
+				692AFF4A1E6E79800001C09C /* normalize.css */,
+				692AFF4B1E6E79800001C09C /* rich_editor.html */,
+				692AFF4C1E6E79800001C09C /* rich_editor.js */,
+				692AFF4D1E6E79800001C09C /* rich_editor_tests.html */,
+				692AFF4E1E6E79800001C09C /* rich_editor_tests.js */,
+				692AFF4F1E6E79800001C09C /* style.css */,
+			);
+			path = editor;
+			sourceTree = "<group>";
+		};
+		696EBA261E6CF67900EB6E99 = {
+			isa = PBXGroup;
+			children = (
+				696EBA311E6CF67900EB6E99 /* KokyRichEditor */,
+				696EBA301E6CF67900EB6E99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		696EBA301E6CF67900EB6E99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				696EBA2F1E6CF67900EB6E99 /* KokyRichEditor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		696EBA311E6CF67900EB6E99 /* KokyRichEditor */ = {
+			isa = PBXGroup;
+			children = (
+				696EBA351E6CF67900EB6E99 /* AppDelegate.h */,
+				696EBA361E6CF67A00EB6E99 /* AppDelegate.m */,
+				696EBA381E6CF67A00EB6E99 /* ViewController.h */,
+				696EBA391E6CF67A00EB6E99 /* ViewController.m */,
+				696EBA3B1E6CF67A00EB6E99 /* Main.storyboard */,
+				696EBA6D1E6D04D600EB6E99 /* UIViewController+KeyboardCorver.h */,
+				696EBA6E1E6D04D600EB6E99 /* UIViewController+KeyboardCorver.m */,
+				696EBA701E6D057000EB6E99 /* KeyBoardToolView.h */,
+				696EBA711E6D057000EB6E99 /* KeyBoardToolView.m */,
+				696EBA3E1E6CF67A00EB6E99 /* Assets.xcassets */,
+				696EBA401E6CF67A00EB6E99 /* LaunchScreen.storyboard */,
+				696EBA431E6CF67A00EB6E99 /* Info.plist */,
+				696EBA321E6CF67900EB6E99 /* Supporting Files */,
+			);
+			path = KokyRichEditor;
+			sourceTree = "<group>";
+		};
+		696EBA321E6CF67900EB6E99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				692AFF481E6E79800001C09C /* editor */,
+				696EBA331E6CF67900EB6E99 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		696EBA2E1E6CF67900EB6E99 /* KokyRichEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 696EBA461E6CF67A00EB6E99 /* Build configuration list for PBXNativeTarget "KokyRichEditor" */;
+			buildPhases = (
+				696EBA2B1E6CF67900EB6E99 /* Sources */,
+				696EBA2C1E6CF67900EB6E99 /* Frameworks */,
+				696EBA2D1E6CF67900EB6E99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KokyRichEditor;
+			productName = KokyRichEditor;
+			productReference = 696EBA2F1E6CF67900EB6E99 /* KokyRichEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		696EBA271E6CF67900EB6E99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = xujing;
+				TargetAttributes = {
+					696EBA2E1E6CF67900EB6E99 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 799WSE7R56;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 696EBA2A1E6CF67900EB6E99 /* Build configuration list for PBXProject "KokyRichEditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 696EBA261E6CF67900EB6E99;
+			productRefGroup = 696EBA301E6CF67900EB6E99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				696EBA2E1E6CF67900EB6E99 /* KokyRichEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		696EBA2D1E6CF67900EB6E99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696EBA421E6CF67A00EB6E99 /* LaunchScreen.storyboard in Resources */,
+				692AFF511E6E79800001C09C /* normalize.css in Resources */,
+				696EBA3F1E6CF67A00EB6E99 /* Assets.xcassets in Resources */,
+				692AFF501E6E79800001C09C /* assert.js in Resources */,
+				696EBA3D1E6CF67A00EB6E99 /* Main.storyboard in Resources */,
+				692AFF521E6E79800001C09C /* rich_editor.html in Resources */,
+				692AFF531E6E79800001C09C /* rich_editor.js in Resources */,
+				692AFF561E6E79800001C09C /* style.css in Resources */,
+				692AFF551E6E79800001C09C /* rich_editor_tests.js in Resources */,
+				692AFF541E6E79800001C09C /* rich_editor_tests.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		696EBA2B1E6CF67900EB6E99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696EBA3A1E6CF67A00EB6E99 /* ViewController.m in Sources */,
+				696EBA371E6CF67A00EB6E99 /* AppDelegate.m in Sources */,
+				696EBA6F1E6D04D600EB6E99 /* UIViewController+KeyboardCorver.m in Sources */,
+				696EBA721E6D057000EB6E99 /* KeyBoardToolView.m in Sources */,
+				696EBA341E6CF67900EB6E99 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		696EBA3B1E6CF67A00EB6E99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				696EBA3C1E6CF67A00EB6E99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		696EBA401E6CF67A00EB6E99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				696EBA411E6CF67A00EB6E99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		696EBA441E6CF67A00EB6E99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		696EBA451E6CF67A00EB6E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		696EBA471E6CF67A00EB6E99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = KokyRichEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AiLi.KokyRichEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		696EBA481E6CF67A00EB6E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = KokyRichEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AiLi.KokyRichEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		696EBA2A1E6CF67900EB6E99 /* Build configuration list for PBXProject "KokyRichEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696EBA441E6CF67A00EB6E99 /* Debug */,
+				696EBA451E6CF67A00EB6E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		696EBA461E6CF67A00EB6E99 /* Build configuration list for PBXNativeTarget "KokyRichEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696EBA471E6CF67A00EB6E99 /* Debug */,
+				696EBA481E6CF67A00EB6E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 696EBA271E6CF67900EB6E99 /* Project object */;
+}
